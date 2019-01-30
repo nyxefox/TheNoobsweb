@@ -1,0 +1,60 @@
+h1
+{
+    font-family: Courier;
+}
+#welcome
+{
+    border: 1px solid black;
+    
+}
+button
+{
+    background-color: transparent;
+    border: 2px solid black;
+    font-family: Courier;
+    font-size: 100%;
+ width: auto;
+    height: auto;
+}
+button:hover
+{
+animation-name: btnhover;
+    animation-duration: 0.5s;
+    
+}
+@keyframes btnhover
+{
+    from{
+         background-color: transparent;
+    border: 2px solid black;
+    }
+    to
+    {
+         background-color: black;
+    border: 2px solid black;
+        color: white;
+    }
+}
+#introduction
+{
+    border: 2px solid black;
+    width: 100%;
+    height: auto;
+  
+}
+p
+{
+    font-family: Courier;
+    font-size: 130%;
+}
+ul
+{
+    font-family: Courier;
+    font-size: 130%;
+    list-style-type: circle;
+    
+}
+body
+{
+    padding-right: 1%;
+}
